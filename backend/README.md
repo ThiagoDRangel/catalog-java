@@ -1,35 +1,37 @@
 ## Project Catalog
 
+```mermaid
 classDiagram
-class User {
-+ id: Long
-+ firstName: String
-+ lastName: String
-+ email: String
-+ password: String
-}
+  class User {
+    + id: Long
+    + firstName: String
+    + lastName: String
+    + email: String
+    + password: String
+  }
 
-class Role {
-+ authority: String
-+ id: Long
-}
+  class Role {
+    + authority: String
+    + id: Long
+  }
 
-class Product {
-+ id: Long
-+ name: String
-+ description: String
-+ price: Double
-+ imgUrl: String
-}
+  class Product {
+    + id: Long
+    + name: String
+    + description: String
+    + price: Double
+    + imgUrl: String
+  }
 
-class Category {
-+ id: Long
-+ name: String
-}
+  class Category {
+    + id: Long
+    + name: String
+  }
 
-User "1" -- "N" Role : Has Roles
-Product "N" -- "N" Category : Belongs To Categories
+  User "1" -- "N" Role : Has Roles
+  Product "N" -- "N" Category : Belongs To Categories
 
+```
 
 ### Project Dependencies `maven`
 ```bash

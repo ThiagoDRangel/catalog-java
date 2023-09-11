@@ -1,7 +1,6 @@
 package com.thiagoDRangel.catalog.resources;
 
 import com.thiagoDRangel.catalog.dto.CategoryDTO;
-import com.thiagoDRangel.catalog.entities.Category;
 import com.thiagoDRangel.catalog.services.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -26,9 +25,9 @@ public class CategoryResource {
         return ResponseEntity.ok().body(list);
     }
 
-    @GetMapping(value = "/{id}")
+    /* @GetMapping(value = "/{id}")
     public ResponseEntity<CategoryDTO> findById(@PathVariable Long id) {
         CategoryDTO dto = service.findById(id);
         return ResponseEntity.ok().body(list);
-    }
+    } */
 }

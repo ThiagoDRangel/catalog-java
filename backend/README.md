@@ -1,5 +1,8 @@
-## Project Catalog
+# Project Catalog
 
+### [Figma](https://www.figma.com/file/cNa2l3TqZXxbU6NBDPruNw/BDS-DSCatalog?type=design&node-id=0-1&mode=design&t=JHiW79Xzrq3d9jxf-0)
+
+### Diagram Class
 ```mermaid
 classDiagram
   class User {
@@ -68,3 +71,5 @@ classDiagram
 	<artifactId>spring-boot-starter-security</artifactId>
 </dependency>
 ```
+
+### [DOC](https://github.com/devsuperior/dscatalog-resources/tree/master/backend)

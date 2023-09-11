@@ -31,6 +31,7 @@ classDiagram
   User "1" -- "N" Role : Has Roles
   Product "N" -- "N" Category : Belongs To Categories
 
+
 ```
 
 ### Project Dependencies `maven`
